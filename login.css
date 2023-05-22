@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-Regular.otf);
+}
+html {
+    background: url(img/login-bg.png);
+    background-size: cover;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+.login-container {
+    background-color: #1E1E1E;
+    padding: 41px 46px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section img {
+    width: 22vw;
+    margin-bottom: 29px;
+}
+button img {
+    width: 1.8vw;
+    margin-right: 13px;
+    margin-bottom: 0;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 9px 20px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #1E1E1E;
+    border-color: white;
+    color: #8C8C8C;
+    font-family: 'Inter';
+    cursor: pointer;
+    margin-bottom: 14px;
+    font-size: 1vw;
+}
+input {
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #1E1E1E;
+    border-color: white;
+    padding: 9px 20px;
+    margin-bottom: 14px;
+    font-size: 1vw;
+}
+input::placeholder {
+    color: #8C8C8C;
+    font-family: 'Inter';    
+}
+input:focus {
+    color: white;
+    font-family: 'Inter';    
+    outline: none;
+    box-shadow: 0 0 5px white;
+}
+input:valid {
+    color: white;
+    font-family: 'Inter';    
+    outline: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.login {
+    color: white;
+    background-color: #22333B;
+    border: none;
+    transition: background-color 0.5s, color 0.5s;
+}
+.login:hover {
+    color: #22333B;
+    background-color: white;
+}
